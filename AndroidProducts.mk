@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rr_nitrogen.mk
+    $(LOCAL_DIR)/aosp_nitrogen.mk
