@@ -45,7 +45,6 @@ cd ../../..
 # Patch frameworks_base
 cd frameworks/base
 git apply ../../device/xiaomi/nitrogen/patches/use_only_rsrp_for_lte_signal_bar.diff
-git apply ../../device/xiaomi/nitrogen/patches/add_missing_frameworks_base_touch_optimization.diff
 cd ../..
 
 # Patch system_bt
@@ -72,6 +71,7 @@ rm -rf android_kernel_wireguard
 # Wipe out the package cache
 rm -rf out/target/product/*/vendor 2>/dev/null
 rm -rf out/target/product/*/system 2>/dev/null
+rm -rf out/target/product/*/obj/ETC 2>/dev/null
 rm -rf out/target/product/*/obj/PACKAGING 2>/dev/null
 
 # Remove old builds to conserve space
