@@ -28,7 +28,7 @@ $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 # Inherit from custom vendor
 $(call inherit-product, vendor/MiuiCamera/config.mk)
 
-PRODUCT_NAME := aosip_nitrogen
+PRODUCT_NAME := aosip_nitroge
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := nitrogen
 PRODUCT_MANUFACTURER := Xiaomi
